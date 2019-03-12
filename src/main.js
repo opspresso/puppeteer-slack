@@ -4,7 +4,7 @@ const puppeteer = require('puppeteer');
 
 // For puppeteer
 const TARGET_URL = process.env.TARGET_URL || 'https://github.com';
-const FILE_NAME = process.env.FILE_NAME || 'example.png';
+const FILE_NAME = process.env.FILE_NAME || 'screenshot.png';
 const WIDTH = process.env.WIDTH || 1920;
 const HEIGHT = process.env.HEIGHT || 1080;
 const FULL_PAGE = process.env.FULL_PAGE;
