@@ -2,6 +2,13 @@
 
 * <https://github.com/GoogleChrome/puppeteer>
 
+## Prepare
+
+* Slack App
+  * <https://my.slack.com/services/new/bot>
+
+## Uasge
+
 ```
 $ docker run --rm \
     -e SLACK_BOT_TOKEN=xxxx-0000-0000-xxxx \
@@ -11,3 +18,5 @@ $ docker run --rm \
     -e HEIGHT=600 \
     quay.io/opspresso/puppeteer-slack
 ```
+
+## Params
