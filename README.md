@@ -1,6 +1,7 @@
 # puppeteer-slack
 
 * <https://github.com/GoogleChrome/puppeteer>
+* <https://github.com/ryysud/screenshot2slack>
 
 ## Prepare
 
@@ -18,5 +19,3 @@ $ docker run --rm \
     -e HEIGHT=600 \
     quay.io/opspresso/puppeteer-slack
 ```
-
-## Params
