@@ -1,0 +1,13 @@
+{
+    "name": "puppeteer-slack",
+    "version": "0.0.1",
+    "main": "main.js",
+    "scripts": {
+        "build": "npm install -s",
+        "start": "node main.js"
+    },
+    "dependencies": {
+        "puppeteer": "1.13.0",
+        "request": "2.88.0"
+    }
+}
